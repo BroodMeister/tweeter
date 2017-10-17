@@ -18,7 +18,11 @@
   border-radius: 2px;
 }
 
-.counter{
+.counter {
   float: right;
   margin: 8px;
+}
+
+.err {
+  color: red;
 }
