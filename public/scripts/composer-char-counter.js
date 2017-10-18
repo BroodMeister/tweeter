@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".new-tweet form textarea").on("input", function(event) {
+    $(this).siblings(".flashMsg").text("");
     const limit = 140;
     var length = $(this).val().length;
     var remain = limit - length;
