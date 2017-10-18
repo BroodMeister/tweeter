@@ -2,7 +2,8 @@
   margin: 2em;
 }
 
-#tweets-container header:hover {
+#tweets-container:hover footer img{
+  visibility: visible;
 }
 
 #tweets-container article{
@@ -60,4 +61,11 @@
   display: table-cell;
   text-align: left;
   vertical-align: middle;
+}
+
+#tweets-container footer img{
+  display: table-cell;
+  float: right;
+  width: 90px;
+  visibility: hidden;
 }
