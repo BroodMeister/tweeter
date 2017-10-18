@@ -2,6 +2,9 @@
   margin: 2em;
 }
 
+#tweets-container header:hover {
+}
+
 #tweets-container article{
   margin-bottom: 1em;
   border: 1px solid #ddd;
