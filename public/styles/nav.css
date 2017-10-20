@@ -29,3 +29,7 @@
   background-color: #e8fdff;
   color:#00a087;
 }
+
+#compose:hover {
+  color: black;
+}
