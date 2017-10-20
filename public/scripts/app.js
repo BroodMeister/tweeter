@@ -42,10 +42,14 @@ $(document).ready(function() {
     // footer section
     let $footer = $("<footer>");
     let $time = $("<p>").text(getDate(tweet.created_at));
-    let $hover = $("<img>", { src: "https://i.imgur.com/CZVf2Zx.png" });
+    let $hover0 = $("<i>", { class: "fa fa-flag" });
+    let $hover1 = $("<i>", { class: "fa fa-retweet" });
+    let $hover2 = $("<i>", { class: "fa fa-heart" });
 
     $footer.append($time);
-    $footer.append($hover);
+    $footer.append($hover0);
+    $footer.append($hover1);
+    $footer.append($hover2);
 
     // entire article
     let $article = $("<article>");
