@@ -4,11 +4,11 @@
   margin-top: 1em;
 }
 
-#tweets-container:hover header{
+#tweets-container article:hover header{
   background-color:rgba(0, 0, 0, 0.1);
 }
 
-#tweets-container:hover footer i{
+#tweets-container article:hover footer i{
   visibility: visible;
 }
 
