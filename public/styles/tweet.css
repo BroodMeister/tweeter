@@ -33,7 +33,7 @@
 
 #tweets-container h2{
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   text-align: left;
   width: 100%;
   padding-left: 10px;
@@ -43,7 +43,7 @@
 #tweets-container h6{
   display: table-cell;
   text-align: right;
-  vertical-align: middle;
+  vertical-align: top;
   color: #888;
 }
 

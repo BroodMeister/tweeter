@@ -31,7 +31,7 @@ $(document).ready(function() {
     let $header = $("<header>");
     let $avatar = $("<img>", { class: "avatar", src: tweet.user.avatars.small });
     let $name = $("<h2>", { class: "name" }).text(tweet.user.name);
-    let $handle = $("<p>", { class: "handle" }).text(tweet.user.handle);
+    let $handle = $("<h6>", { class: "handle" }).text(tweet.user.handle);
     $header.append($avatar);
     $header.append($name);
     $header.append($handle);
